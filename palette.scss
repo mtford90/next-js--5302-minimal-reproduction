@@ -1,0 +1,61 @@
+$primaryDark: rgba(33, 44, 103, 1);
+$primaryMain: #0f5696;
+$contrast: #4d4d4d;
+$lightGray: #eee;
+$veryDarkGray: #4d4d4d;
+$info: rgb(256, 231, 63);
+$success: rgb(60, 182, 78);
+$fail: rgb(222, 45, 45);
+$facebook: rgb(60, 91, 149);
+$twitter: rgb(29, 172, 235);
+$google: rgb(219, 75, 63);
+$whatsapp: rgb(37, 156, 32);
+$sms: rgb(21, 122, 250);
+
+$lightBlueGradient: linear-gradient(
+  90deg,
+  #1c94d7 0,
+  #1daeeb 10%,
+  #1c9adc 50%,
+  #1e77c1
+);
+
+$emailGradient: linear-gradient(
+  to bottom,
+  rgba(36, 114, 237, 1) 0%,
+  rgba(45, 199, 249, 1) 100%
+);
+
+$darkBlueHorizontalGradient: linear-gradient(
+  to right,
+  rgba(33, 44, 103, 1) 0%,
+  rgba(35, 84, 151, 1) 100%
+);
+
+$darkBlueVerticalGradient: linear-gradient(
+  to bottom,
+  $primaryMain 0%,
+  $primaryDark 100%
+);
+
+// Export to javascript
+//noinspection CssInvalidPseudoSelector,CssUnknownProperty
+:export {
+  primaryDark: $primaryDark;
+  primaryMain: $primaryMain;
+  contrast: $contrast;
+  lightGray: $lightGray;
+  veryDarkGray: $veryDarkGray;
+  info: $info;
+  success: $success;
+  fail: $fail;
+  facebook: $facebook;
+  twitter: $twitter;
+  google: $google;
+  whatsapp: $whatsapp;
+  sms: $sms;
+  lightBlueGradient: $lightBlueGradient;
+  emailGradient: $emailGradient;
+  darkBlueHorizontalGradient: $darkBlueHorizontalGradient;
+  darkBlueVerticalGradient: $darkBlueVerticalGradient;
+}
